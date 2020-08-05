@@ -1,0 +1,118 @@
+The [ and ] around the argument mean it’s required.
+The ( and ) around the argument mean it’s optional.
+
+Levels and ranks
+----------------------------------------------------------------------------------------------------------------------------
+MEE6 - levels and ranks system, just the prefix will change to alpha
+
+
+Info
+----------------------------------------------------------------------------------------------------------------------------
+help			Get information about Dyno or a command.				alpha help (command)
+info			Get information about the bot.						alpha info
+
+
+Manager --- alpha help manager
+----------------------------------------------------------------------------------------------------------------------------
+addmod			Add a moderator role.							alpha addmod [role]
+addrole			Add a new server role, with optional color and hoist.			alpha addrole [name] (hex color) (hoist)
+clearwarn		Clear warnings from users.						alpha clearwarn [user]
+command			Enable or disable a command.						alpha command [command]
+delmod			Remove a moderator or moderator role.					alpha delmod [role]
+delrole			Delete a server role.							alpha delrole [role]
+listmods		List all moderators and moderator roles.				alpha listmods
+mentionable		Toggles whether a role is mentionable or not.				alpha mentionable [role]
+module			Enable or disable a module.						alpha module [module]	
+nick			Change the bot nickname.						alpha nick [new nickname]
+prefix			Get the current prefix of your server or set a new one.			alpha prefix (new prefix)
+purge			Delete a number of messages from a channel. (limit 1000)		alpha purge (optional member) (optional count)
+role			Manage the roles of a user.						alpha role [user] [role name]
+rolecolor		Change the color of a role.						alpha rolecolor [role] [hex color]
+rolename		Change the name of a role.						alpha rolename [role], [new name]
+setnick			Change the nickname of a user.						alpha setnick [user] [new nickname]
+
+
+Moderator --- alpha help moderator
+----------------------------------------------------------------------------------------------------------------------------
+ban			Ban a member.								alpha ban [user] (limit) (reason)
+clean			Cleanup the bot responses.						alpha clean (count)
+clearnotes		Delete all notes about a member.					alpha clearnotes [user]
+deafen			Deafen a member.							alpha deafen [user] (reason)
+delnote			Delete a single note about a member.					alpha delnote [user] [note ID]
+delwarn			Clear a single warning from a member.					alpha delwarn [warning ID]
+diagnose		Diagnose any command or module in the bot to determine 			alpha diagnose [command or module]
+				if there are any problems.
+editnote		Edit a note about a member.						alpha editnote [user] [note ID] [note]
+jail			Jail a member.								alpha jail [user] (reason)
+members			List members in a role or roles.					alpha members [role]
+modlogs			Get a list of moderation logs for a user.				alpha modlogs [user]
+mute			Mute a member so they cannot type.					alpha mute [user] (limit) (reason)
+note			Add a note about a member.						alpha note [user] [note]
+notes			Get notes for a user.							alpha notes [user]
+softban			Softban a member (ban and immediately unban to delete their messages).	alpha softban [user] (reason)
+unban			Unban a member.								alpha unban [user] (reason)
+undeafen		Undeafen a member.							alpha undeafen [user] (reason)
+unlock			Unlock a channel.							alpha unlock [channel] (reason)
+unmute			Unmute a member.							alpha unmute [user] (reason)
+warn			Warn a member.								alpha warn [user] (reason)
+warnings		Get warnings for a user.						alpha warnings [user]
+roleinfo		Get information about a role.						alpha roleinfo [role]
+roles			Get a list of server roles.						alpha roles (search)
+
+
+Miscellaneous
+----------------------------------------------------------------------------------------------------------------------------
+covid			Get COVID-19 statistics.						alpha covid [country or state]
+membercount		Get the membercount of the current server.				alpha membercount
+remindme		Set a reminder.	?							alpha remindme [time] [reminder]
+serverinfo		Get information about the current server.				alpha serverinfo
+whois			Get information about a user.						alpha whois (user)
+poll			Start a poll for people to vote on.					alpha poll “[message]” “[choice 1]” “[choice 2]”
+paste			Pasting large amounts of code can be made possible by this.		alpha paste
+music   		MEE6 music system							alpha help music
+
+
+Compiler
+----------------------------------------------------------------------------------------------------------------------------
+https://github.com/Headline/discord-compiler-bot/wiki/Introduction (all commands of this bot)
+
+
+Server Stats
+----------------------------------------------------------------------------------------------------------------------------
+https://serverstatsbot.com/ this bot's commands for only Server stats purpose (All Members:, Members:, Bots: )
+
+
+Invites Manager
+----------------------------------------------------------------------------------------------------------------------------
+addInvites		Adds/Removes invites to/from a member.					alpha addInvites <user> <amount> [reason]
+clearInvites		Clear invites of the server/a user.					alpha clearInvites [-d value|--date=value][-cb|--clearbonus] [user]
+createInvite		Creates unique invite codes.						alpha createInvite <name> [channel]
+info			Show info about a specific member.					alpha info <user> [details][page]
+inviteCodes		Get a list of all your invite codes					alpha inviteCodes
+inviteDetails		Shows details about where your invites are from.			alpha inviteDetails [user]
+invites			Show personal invites.							alpha invites [user]
+leaderboard		Show members with most invites.						alpha leaderboard [page]
+removeInvites		Removes a specified amount of invites from a user.			alpha removeInvites <user> <amount> [reason]
+restoreInvites		Restore all previously cleared invites.					alpha restoreInvites [user]
+subtractFakes		Remove fake invites from all users.					alpha subtractFakes
+subtractLeaves		Remove leaves from all users						alpha subtractLeaves
+
+
+Reaction role 
+----------------------------------------------------------------------------------------------------------------------------
+alpha channel <#channel>			Set the active channel.
+alpha message <message ID>			Set the active message.
+alpha embed [Embed JSON]			Create an embed that will be used as the active message.
+alpha normal <emoji> <role>			Give a role
+alpha once <emoji> <role>			Setup a once role
+alpha remove <emoji> <role>			Remove a role
+alpha toggle <emoji> <role>			Setup a toggled role
+alpha list					Show all roles.
+alpha delete					Delete a role that has been setup.
+alpha edit <message ID> <new message>		Edit a message sent by Zira.
+alpha autorole					Give roles to be given when a member joins
+alpha presence					Give roles when someone is playing a game
+alpha autoroledm				Send the user a DM whenever they react to get or remove roles
+alpha rooms					Setup private rooms
+alpha trello					Trello integration
+alpha voice					Give a role when someone joins a voice channel.
