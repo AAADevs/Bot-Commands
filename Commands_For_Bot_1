@@ -22,7 +22,6 @@ delmod			Remove a moderator or moderator role.					alpha delmod [role]
 delrole			Delete a server role.							alpha delrole [role]
 listmods		List all moderators and moderator roles.				alpha listmods
 mentionable		Toggles whether a role is mentionable or not.				alpha mentionable [role]
-module			Enable or disable a module.						alpha module [module]	
 nick			Change the bot nickname.						alpha nick [new nickname]
 prefix			Get the current prefix of your server or set a new one.			alpha prefix (new prefix)
 purge			Delete a number of messages from a channel. (limit 1000)		alpha purge (optional member) (optional count)
