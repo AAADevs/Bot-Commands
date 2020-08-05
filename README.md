@@ -25,4 +25,3 @@ The bot commands for Alpha bot.
 
 > @PythonDiscorder#4307  - Reaction Role -ref(https://github.com/GhostDark123/Zira)
 
-**YOU CAN SUBMIT WHENEVER YOU FINISH IT BUT WITHIN 2 WEEKS TIME PERIOD, if you can't then pls tell your reason to either me or JON **
