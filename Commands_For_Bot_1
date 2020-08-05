@@ -70,6 +70,10 @@ whois			Get information about a user.						alpha whois (user)
 poll			Start a poll for people to vote on.					alpha poll “[message]” “[choice 1]” “[choice 2]”
 paste			Pasting large amounts of code can be made possible by this.		alpha paste
 music   		MEE6 music system							alpha help music
+snakes and ladders	Play a game of Snakes and Ladders					alpha snakes lad [no.of players]
+minesweeper		Commands for Playing Minesweeper.					aplha minesweeper
+battelship		Play a game of Battleship with someone else!				alpha battleship
+TriviaQuiz		Start a quiz!								alpha quiz [category]
 
 
 Compiler
