@@ -1,7 +1,7 @@
 ### Bot-Commands
 The bot commands for Alpha bot.
 
-> @(car (cdr lat))#5330  - Invites Manager - ref(https://github.com/SideProjectGuys/invite-manager-bot)
+> @Iceman#6508   - Invites Manager - ref(https://github.com/SideProjectGuys/invite-manager-bot)
 
 > @Agent#4469  - Levels and ranks of MEE6 and merge the codes in the git repo
 
