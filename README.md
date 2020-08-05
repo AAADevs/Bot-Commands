@@ -1,4 +1,4 @@
-# Bot-Commands
+### Bot-Commands
 The bot commands for Alpha bot.
 
 > @(car (cdr lat))#5330  - Invites Manager - ref(https://github.com/SideProjectGuys/invite-manager-bot)
@@ -24,4 +24,5 @@ The bot commands for Alpha bot.
 > @Pyro#8749 - help others and merge the codes in the git repo
 
 > @PythonDiscorder#4307  - Reaction Role -ref(https://github.com/GhostDark123/Zira)
+
 **YOU CAN SUBMIT WHENEVER YOU FINISH IT BUT WITHIN 2 WEEKS TIME PERIOD, if you can't then pls tell your reason to either me or JON **
